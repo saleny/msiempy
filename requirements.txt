@@ -8,3 +8,4 @@ pytest-rerunfailures
 pytest-cov
 black
 git+https://github.com/twisted/pydoctor.git
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
